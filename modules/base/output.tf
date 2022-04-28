@@ -1,0 +1,11 @@
+output "resource_group_name" {
+    value = azurerm_resource_group.main_resource_group.name
+}
+
+output "resource_group_location" {
+    value = azurerm_resource_group.main_resource_group.location
+}
+
+output "storage_account_primary_blob_endpoint" {
+    value = azurerm_storage_account.mystorageaccount.primary_blob_endpoint
+}
